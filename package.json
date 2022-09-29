@@ -1,0 +1,24 @@
+{
+  "name": "tiktok-video-downloader-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main",
+    "dev": "nodemon main"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "bluebird": "^3.7.2",
+    "dotenv": "^16.0.2",
+    "env": "^0.0.2",
+    "node-telegram-bot-api": "^0.58.0",
+    "social-links": "^1.4.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  }
+}
