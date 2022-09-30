@@ -28,9 +28,9 @@ bot.on('message', async (message) => {
             }
           })
           const response = await data.json()
-          console.log(response.photos)
+//           console.log(response.photos)
           let length = response.photos.length
-          console.log(length)
+//           console.log(length)
           for (let len = 1; len < length; len++) {
             console.log(image_url)
             var photographer = await response.photos[len].photographer_url
@@ -47,7 +47,7 @@ bot.on('message', async (message) => {
     }
   }
   catch (error) {
-
+    await bot.sendMessage(912132231, error + '')
   }
 })
 
